@@ -1,7 +1,7 @@
 package com.boolea.interfazdistribuida;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
             mTvTitulo.setText("IPN creará el Centro de Investigación en Cambio Climático");
             mTvAutor.setText("Lizbeth Lopez");
             mTvFecha.setText("28/08/2018");
-            mTvNoticia.setText("El Instituto Politécnico Nacional (IPN) informó que creará un Centro de Investigación en Cambio Climático y se instalará una nueva unidad ..");
+            mTvNoticia.setText("El Instituto Politécnico Nacional (IPN) informó que creará un Centro de Investigación en Cambio Climático \n y se instalará una nueva unidad ..");
         } else {
             mTvTitulo.setText("Busca el IPN aumentar su matrícula en el corto plazoo");
             mTvAutor.setText("Juanito Pérez");
             mTvFecha.setText("29/08/2018");
-            mTvNoticia.setText("CIUDAD DE MÉXICO. El Instituto Politécnico Nacional (IPN) impulsa una estrategia que permita aumentar su matrícula en el corto plazo, con ...");
+            mTvNoticia.setText("CIUDAD DE MÉXICO. El Instituto Politécnico Nacional (IPN) impulsa una estrategia que permita aumentar su matrícula \n en el corto plazo, con ...");
         }
         countNoticia++;
     }
