@@ -52,7 +52,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="Oscar emilio"
+                        android:text="Vandaleep"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
@@ -68,23 +68,25 @@
                         android:id="@+id/tv_fecha"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="22/11/2012"
+                        android:text="29/08/2018"
                         android:textColor="@android:color/black"
                         android:textStyle="bold" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginStart="10dp"
+                    android:layout_weight="1"
                     android:background="@android:color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/tv_noticia_descripcion"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:text="Escriba aquí el Texto que desee"
                         android:textColor="@android:color/black"
                         android:textSize="14sp"
                         android:textStyle="bold" />
