@@ -1,5 +1,6 @@
 package com.boolea.interfazdistribuida;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -31,11 +32,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void cambiarNoticia (View view) {
         if (countNoticia % 2 == 0) {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
             mTvTitulo.setText("IPN creará el Centro de Investigación en Cambio Climático");
             mTvAutor.setText("Lizbeth Lopez");
             mTvFecha.setText("28/08/2018");
             mTvNoticia.setText("El Instituto Politécnico Nacional (IPN) informó que creará un Centro de Investigación en Cambio Climático \n y se instalará una nueva unidad ..");
         } else {
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
             mTvTitulo.setText("Busca el IPN aumentar su matrícula en el corto plazoo");
             mTvAutor.setText("Juanito Pérez");
             mTvFecha.setText("29/08/2018");
